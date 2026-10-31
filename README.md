@@ -1,11 +1,20 @@
-# Xpirit AI - Macrobiotic Quantum Theory SFT on Qwen
+---
+license: apache-2.0
+language:
+  - en
+tags:
+  - macrobiotic-quantum-theory
+  - mqt
+  - xpirit-ai
+pipeline_tag: text-generation
+---
 
-*(DRAFT model card â€” for SDM review before any public upload. Nothing is published yet.)*
+# Xpirit AI - Macrobiotic Quantum Theory SFT on Qwen
 
 ## Summary
 **Xpirit AI - Macrobiotic Quantum Theory SFT on Qwen** is an early research model from **Xpirit AI â€”
-American LTD**: a supervised fine-tune (SFT) on a Qwen base that explored expressing **Macrobiotic Quantum Theory
-(MQT)** in natural language. It is released publicly as a historical artifact and for transparency.
+American LTD**: a supervised fine-tune (SFT) on a Qwen base that explored expressing **Macrobiotic Quantum
+Theory (MQT)** in natural language. It is released publicly as a historical artifact and for transparency.
 
 ## Why it matters (lineage)
 This was the **very early Xpirit project** in the line of work on machine understanding of Macrobiotic
@@ -34,14 +43,11 @@ faithfully, which set the direction for everything after.
 - **Company behind the project:** **Xpirit AI â€” American LTD**.
 - **License:** inherits the base model's license terms; released with attribution to Xpirit AI â€” American LTD.
 
-## About the theory (public)
+## About the theory
 Macrobiotic Quantum Theory is a published physics framework (see *The Forgotten Quantum of Einstein*,
 M. M. de Siqueira, 3rd ed., 2026, and the associated papers with permanent DOIs). This model only attempts
-to *describe* that public theory in natural language; it does not contain or expose any proprietary system.
+to *describe* that public theory in natural language.
 
----
-*Review notes: confirm the public name, license line, and that nothing proprietary (architecture,
-corpora, internal metrics) is implied. Upload to HF is held pending your approval.*
 ## Weights
 
-Model weights (safetensors / GGUF, ~5 GB) are hosted on Hugging Face (see the model repo); this GitHub repo carries the card, the paper, the system-prompt wrap, and the serving config.
+Model weights (safetensors / GGUF, ~5 GB) are on Hugging Face: https://huggingface.co/RaymondTuring/xpirit-ai-mqt-sft-on-qwen
